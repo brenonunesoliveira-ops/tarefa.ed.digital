@@ -1,221 +1,41 @@
-```html
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
-    <meta charset="UTF-8">
-
-    <title>Acqua Park Araucária</title>
-
-    <style>
-
-        body {
-            font-family: Arial;
-            background-color: #d9f3f8;
-            margin: 0;
-        }
-
-        header {
-            background-color: #168aad;
-            color: white;
-            text-align: center;
-            padding: 30px;
-        }
-
-        nav {
-            background-color: #126782;
-            text-align: center;
-            padding: 12px;
-        }
-
-        nav a {
-            color: white;
-            margin: 10px;
-            text-decoration: none;
-        }
-
-        main {
-            width: 90%;
-            max-width: 800px;
-            margin: 20px auto;
-        }
-
-        section {
-            background-color: white;
-            padding: 20px;
-            margin-bottom: 20px;
-            border-radius: 8px;
-        }
-
-        h2 {
-            color: #126782;
-        }
-
-        p {
-            line-height: 1.5;
-        }
-
-        .fotos {
-            display: flex;
-            gap: 15px;
-        }
-
-        .foto {
-            background-color: #bdeaf5;
-            width: 33%;
-            height: 180px;
-
-            display: flex;
-            align-items: center;
-            justify-content: center;
-
-            border-radius: 5px;
-        }
-
-        footer {
-            background-color: #126782;
-            color: white;
-            text-align: center;
-            padding: 20px;
-        }
-
-        @media (max-width: 600px) {
-
-            .fotos {
-                display: block;
-            }
-
-            .foto {
-                width: 100%;
-                margin-bottom: 10px;
-            }
-
-        }
-
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Acqua Park Araucária</title>
+<style>
+body{font-family:Arial;background:#d9f3f8;margin:0}
+header{background:#168aad;color:white;text-align:center;padding:30px}
+nav{background:#126782;text-align:center;padding:12px}
+nav a{color:white;margin:0 12px;text-decoration:none;font-weight:bold}
+main{width:90%;max-width:800px;margin:20px auto}
+section{background:white;padding:20px;margin-bottom:20px;border-radius:8px}
+h2{color:#126782;border-left:5px solid #168aad;padding-left:10px}
+.fotos{display:flex;gap:15px}
+.foto-card{width:32%;border-radius:8px;overflow:hidden;background:#fff;border:1px solid #ccc}
+.foto-card img{width:100%;height:180px;object-fit:cover;display:block}
+.legenda{text-align:center;padding:8px;font-weight:bold;color:#126782;background:#f5f5f5;font-size:13px}
+footer{background:#126782;color:white;text-align:center;padding:20px}
+@media(max-width:600px){.fotos{display:block}.foto-card{width:100%;margin-bottom:15px}}
+</style>
 </head>
-
-
 <body>
-
-    <header>
-
-        <h1>Acqua Park Araucária</h1>
-
-        <p>Um lugar de lazer e diversão</p>
-
-    </header>
-
-
-    <nav>
-
-        <a href="#sobre">Sobre</a>
-
-        <a href="#cultura">Cultura</a>
-
-        <a href="#historia">História</a>
-
-        <a href="#fotos">Fotos</a>
-
-    </nav>
-
-
-    <main>
-
-        <section id="sobre">
-
-            <h2>Sobre o Acqua Park</h2>
-
-            <p>
-                O Acqua Park Araucária é um parque aquático
-                localizado em Araucária, no Paraná.
-                O local possui piscinas, toboáguas,
-                piscina de ondas e outras atrações.
-            </p>
-
-            <p>
-                É um lugar onde as pessoas podem passar
-                o dia se divertindo com a família e os amigos.
-            </p>
-
-        </section>
-
-
-        <section id="cultura">
-
-            <h2>Importância Cultural</h2>
-
-            <p>
-                O parque é uma opção de lazer para os moradores
-                de Araucária e também para pessoas de outras
-                cidades da região.
-            </p>
-
-            <p>
-                O local proporciona momentos de diversão e
-                convivência entre famílias e amigos, além de
-                contribuir para o turismo da região.
-            </p>
-
-        </section>
-
-
-        <section id="historia">
-
-            <h2>Contexto Histórico</h2>
-
-            <p>
-                O Acqua Park Araucária foi criado como um espaço
-                de lazer e turismo. Ele está localizado em
-                Araucária, na Região Metropolitana de Curitiba.
-            </p>
-
-            <p>
-                O fundador e administrador do parque foi
-                Carlos Repinoski. Com o passar dos anos,
-                o parque recebeu diferentes atrações aquáticas
-                e espaços para recreação.
-            </p>
-
-        </section>
-
-
-        <section>
-
-                    <section>
-            <h2>Principais Atrações</h2>
-            <p>
-                Entre as atrações do parque estão a piscina de ondas, o rio lento, piscinas temáticas e toboáguas.
-            </p>
-            <p>
-                Essas atrações atendem pessoas que procuram diversão e também momentos mais tranquilos.
-            </p>
-        </section>
-
-        <section id="fotos">
-            <h2>Fotos</h2>
-            <div class="fotos">
-                <div class="foto-card">
-                    <img src="foto1.jpg" alt="Vista aérea do Acqua Park">
-                    <div class="legenda">Vista aérea do parque</div>
-                </div>
-                <div class="foto-card">
-                    <img src="foto2.jpg" alt="Toboágua Acqua Cobra">
-                    <div class="legenda">Atração Acqua Cobra</div>
-                </div>
-                <div class="foto-card">
-                    <img src="foto3.jpg" alt="Piscinas do parque">
-                    <div class="legenda">Piscinas e toboáguas</div>
-                </div>
-            </div>
-        </section>
-
-    </main>
-
-    <footer>
-        <p>Acqua Park Araucária - Paraná</p>
-        <p><strong>Criado por: Breno Daniel</strong></p>
-    </footer>
-
+<header><h1>Acqua Park Araucária</h1><p>Um lugar de lazer e diversão</p></header>
+<nav><a href="#sobre">Sobre</a><a href="#cultura">Cultura</a><a href="#historia">História</a><a href="#fotos">Fotos</a></nav>
+<main>
+<section id="sobre"><h2>Sobre o Acqua Park</h2><p>O Acqua Park Araucária é um parque aquático localizado em Araucária, no Paraná. Possui piscinas, toboáguas, piscina de ondas e outras atrações.</p><p>É um lugar onde as pessoas podem passar o dia se divertindo com a família e os amigos.</p></section>
+<section id="cultura"><h2>Importância Cultural</h2><p>O parque é uma opção de lazer para os moradores de Araucária e também para pessoas de outras cidades da região.</p></section>
+<section id="historia"><h2>Contexto Histórico</h2><p>O Acqua Park foi criado como espaço de lazer e turismo. O fundador foi Carlos Repinoski.</p></section>
+<section><h2>Principais Atrações</h2><p>Entre as atrações estão piscina de ondas, rio lento, piscinas temáticas e toboáguas.</p></section>
+<section id="fotos"><h2>Fotos</h2>
+<div class="fotos">
+<div class="foto-card"><img src="https://images.unsplash.com/photo-1575429198097-0414ec08e8cd?w=600"><div class="legenda">Vista aérea do parque</div></div>
+<div class="foto-card"><img src="https://images.unsplash.com/photo-1530549387789-4c1017266635?w=600"><div class="legenda">Atração Acqua Cobra</div></div>
+<div class="foto-card"><img src="https://images.unsplash.com/photo-1519046904884-53103b34f59d?w=600"><div class="legenda">Piscinas e toboáguas</div></div>
+</div>
+</section>
+</main>
+<footer><p>Acqua Park Araucária - Paraná</p><p><strong>Criado por: Breno Daniel</strong></p></footer>
 </body>
 </html>
