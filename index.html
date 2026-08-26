@@ -1,76 +1,413 @@
+```html
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>acqua park araucaria<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>park araucaria</title>
+
+    <title>Acqua Park Araucária</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #0077b6, #00b4d8, #90e0ef);
+            color: #222;
+            line-height: 1.6;
+        }
+
+        header {
+            color: white;
+            min-height: 480px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 7%;
+            background: rgba(0, 0, 0, 0.2);
+        }
+
+        .logo {
+            font-size: 23px;
+            font-weight: bold;
+        }
+
+        .menu {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .menu a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 120px 20px 70px;
+        }
+
+        .hero h1 {
+            font-size: 50px;
+            margin-bottom: 15px;
+            text-shadow: 2px 3px 5px rgba(0,0,0,0.3);
+        }
+
+        .hero p {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+
+        .botao {
+            display: inline-block;
+            background: white;
+            color: #0077b6;
+            padding: 13px 25px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        main {
+            max-width: 1050px;
+            margin: auto;
+            padding: 30px 20px;
+        }
+
+        .card,
+        .fotos {
+            background: white;
+            margin-bottom: 30px;
+            padding: 35px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.18);
+        }
+
+        h2 {
+            color: #0077b6;
+            font-size: 29px;
+            margin-bottom: 18px;
+        }
+
+        .card p {
+            font-size: 17px;
+            margin-bottom: 14px;
+        }
+
+        .atracoes {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .atracao {
+            background: #e9faff;
+            padding: 25px;
+            border-radius: 15px;
+            text-align: center;
+        }
+
+        .atracao .emoji {
+            font-size: 40px;
+        }
+
+        .atracao h3 {
+            color: #0077b6;
+            margin: 10px 0;
+        }
+
+        .fotos {
+            text-align: center;
+        }
+
+        .subtitulo {
+            margin-bottom: 25px;
+        }
+
+        .galeria {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .foto {
+            height: 230px;
+            border-radius: 15px;
+            overflow: hidden;
+            background: linear-gradient(135deg, #caf0f8, #48cae4);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #0077b6;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .foto img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        footer {
+            text-align: center;
+            color: white;
+            padding: 35px 15px;
+            background: rgba(0, 0, 0, 0.25);
+        }
+
+        footer p {
+            margin: 5px;
+        }
+
+        @media (max-width: 700px) {
+esse codig
+            nav {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .menu {
+                justify-content: center;
+            }
+
+            .menu a {
+                font-size: 14px;
+            }
+
+            .hero {
+                padding: 80px 15px;
+            }
+
+            .hero h1 {
+                font-size: 36px;
+            }
+
+            .hero p {
+                font-size: 17px;
+            }
+
+            .card,
+            .fotos {
+                padding: 25px 20px;
+            }
+
+            .atracoes,
+            .galeria {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
 </head>
 
 <body>
 
     <header>
-        <h1>sobre o acqupark</h1>
-         <p>Acqua Park Araucária
-O Acqua Park Araucária é uma ótima opção de lazer para quem procura diversão e momentos especiais em Curitiba e região. O parque conta com atrações aquáticas para diferentes idades, proporcionando um ambiente descontraído para aproveitar com a família e os amigos.
-Com piscinas e espaços de lazer, o Acqua Park é uma alternativa para fugir da rotina e curtir um dia cheio de diversão. Além das atrações aquáticas, o espaço oferece uma experiência agradável para quem quer relaxar, brincar e aproveitar o dia.
-Se você está procurando um lugar para se divertir.</p>
+
+        <nav>
+            <div class="logo">🌊 Acqua Park</div>
+
+            <div class="menu">
+                <a href="#sobre">Sobre</a>
+                <a href="#cultura">Cultura</a>
+                <a href="#historia">História</a>
+                <a href="#fotos">Fotos</a>
+            </div>
+        </nav>
+
+        <div class="hero">
+            <h1>Acqua Park Araucária</h1>
+
+            <p>
+                Lazer, diversão e momentos especiais em Araucária - PR
+            </p>
+
+            <a href="#sobre" class="botao">
+                Conheça o parque ↓
+            </a>
+        </div>
+
     </header>
 
+
     <main>
-        <section>
-            <h2>importância cultural</h2>
-O Acqua Park Araucária possui importância cultural por ser um espaço de lazer e convivência na região de Curitiba. O parque proporciona momentos de diversão entre famílias e amigos, contribuindo para o turismo e para as opções de entretenimento da região.
-Além disso, o espaço faz parte da memória de muitas pessoas que frequentam o parque ao longo dos anos, tornando-se um local de encontros, diversão e experiências compartilhadas.
-</section>texto <section>
-            <h2></h2>
-            </p>      
-       <section>
-            <h2>contexto histórico</h2>
-<p/>Acqua Park Araucária é um espaço de lazer localizado em Araucária, na Região Metropolitana de Curitiba. O parque foi criado com o objetivo de oferecer diversão e entretenimento para famílias, amigos e visitantes.
-Ao longo de sua história, o espaço passou por mudanças e recebeu novas atrações, tornando-se uma opção de lazer na região. Atualmente, o parque reúne atrações aquáticas e áreas de diversão, proporcionando momentos de lazer e descanso para seus visitantes.
-                </p>
+
+        <section id="sobre" class="card">
+
+            <h2>📍 Sobre o Acqua Park</h2>
+
+            <p>
+                O Araucária Acqua Park é um parque aquático localizado em
+                Araucária, na Região Metropolitana de Curitiba, no Paraná.
+                O complexo possui uma área de aproximadamente 240 mil metros
+                quadrados e reúne diversas atrações para diferentes públicos.
+            </p>
+
+            <p>
+                Entre as atrações estão piscina de ondas, rio lento, piscinas
+                temáticas, toboáguas e atrações radicais. O parque também possui
+                áreas de recreação infantil, restaurantes, lanchonetes,
+                churrasqueiras e espaços para descanso.
+            </p>
+
+            <p>
+                Por oferecer opções para crianças, jovens e adultos, o local
+                é uma alternativa de lazer para famílias e grupos de amigos
+                de Araucária e da região de Curitiba.
+            </p>
+
         </section>
+
+
+        <section id="cultura" class="card">
+
+            <h2>🏛️ Importância Cultural</h2>
+
+            <p>
+                O Acqua Park possui importância cultural principalmente por
+                funcionar como um espaço de convivência e lazer. O parque
+                proporciona momentos de interação entre familiares, amigos e
+                visitantes de diferentes lugares.
+            </p>
+
+            <p>
+                Além do entretenimento, o local contribui para o turismo e para
+                as opções de lazer da Região Metropolitana de Curitiba.
+            </p>
+
+            <p>
+                Dessa forma, o parque representa uma opção de lazer para as
+                pessoas que procuram atividades ao ar livre e momentos de
+                diversão na região.
+            </p>
+
+        </section>
+
+
+        <section id="historia" class="card">
+
+            <h2>📖 Contexto Histórico</h2>
+
+            <p>
+                O Araucária Acqua Park está localizado no município de
+                Araucária, no Paraná, dentro da Região Metropolitana de
+                Curitiba. O espaço foi desenvolvido como um complexo de lazer
+                e turismo, reunindo atrações aquáticas e áreas destinadas
+                à recreação.
+            </p>
+
+            <p>
+                Ao longo do tempo, o parque passou a oferecer diferentes
+                atrações e estruturas para receber seus visitantes.
+                Atualmente, o complexo reúne piscinas, toboáguas, áreas
+                infantis, espaços esportivos, alimentação e outras opções
+                de entretenimento.
+            </p>
+
+            <p>
+                Entre suas atrações estão a piscina de ondas, o rio lento,
+                a piscina temática, o Kamikaze e o Acqua Cobra. Essa variedade
+                permite que o espaço atenda tanto pessoas que procuram
+                tranquilidade quanto visitantes que gostam de atrações
+                mais radicais.
+            </p>
+
+        </section>
+
+
+        <section class="card">
+
+            <h2>🎢 Principais Atrações</h2>
+
+            <div class="atracoes">
+
+                <div class="atracao">
+                    <div class="emoji">🌊</div>
+                    <h3>Piscina de Ondas</h3>
+                    <p>
+                        Uma das atrações para aproveitar a água e se divertir.
+                    </p>
+                </div>
+
+                <div class="atracao">
+                    <div class="emoji">🏄</div>
+                    <h3>Rio Lento</h3>
+                    <p>
+                        Uma opção mais tranquila para relaxar e aproveitar
+                        o parque.
+                    </p>
+                </div>
+
+                <div class="atracao">
+                    <div class="emoji">🎢</div>
+                    <h3>Toboáguas</h3>
+                    <p>
+                        Atrações para quem gosta de aventura e emoção.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section id="fotos" class="fotos">
+
+            <h2>📸 Galeria de Fotos</h2>
+
+            <p class="subtitulo">
+                Confira algumas imagens do Acqua Park Araucária.
+            </p>
+
+            <div class="galeria">
+
+                <div class="foto">
+                    📷 FOTO 1
+                </div>
+
+                <div class="foto">
+                    📷 FOTO 2
+                </div>
+
+                <div class="foto">
+                    📷 FOTO 3
+                </div>
+
+            </div>
+
+        </section>
+
     </main>
 
+
     <footer>
-        <p>Site desenvolvido por:breno daniel </p>
+
+        <p>🌊 Acqua Park Araucária</p>
+
+        <p>
+            Site desenvolvido por:
+            <strong>Breno Daniel</strong>
+        </p>
+
+        <p>Araucária - Paraná</p>
+
     </footer>
+
 </body>
 
 </html>
-        
-```css
-body {
-    background-color: #f4f1ea;
-    color: #222222;
-    font-family: Arial, sans-serif;
-}
-
-header {
-    background-color: #6b2d5c;
-    color: white;
-    text-align: center;
-    padding: 30px;
-}
-
-h1 {
-    font-size: 36px;
-}
-
-h2 {
-    color: #6b2d5c;
-}
-
-p {
-    font-size: 18px;
-    line-height: 1.6;
-}
 ```
-        .
