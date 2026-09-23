@@ -1,4 +1,75 @@
-    button{
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ilha do Mel</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h1>Ilha do Mel</h1>
+<p>O paraíso ecológico do Paraná</p>
+<nav>
+<a href="#sobre">Sobre</a>
+<a href="#atracoes">Atrações</a>
+<a href="#fotos">Fotos Reais</a>
+</nav>
+</header>
+
+<main>
+<section>
+<h2 id="sobre">Sobre a Ilha do Mel</h2>
+<p>A <strong>Ilha do Mel</strong> fica na Baía de Paranaguá, no Paraná. 95% dela é Mata Atlântica preservada e é uma Estação Ecológica. Não tem carros, só trilhas.</p>
+<p>Ela tem 5 vilas: Nova Brasília, Farol, Fortaleza, Praia Grande e Encantadas. O acesso é de barco saindo de Pontal do Sul ou Paranaguá.</p>
+</section>
+
+<section>
+<h2 id="atracoes">Principais Atrações</h2>
+<div class="card">
+<h3>Farol das Conchas</h3>
+<p>Construído em 1872 a mando de Dom Pedro II com material da Escócia. Fica no alto do Morro das Conchas e precisa subir 150 degraus. A vista é incrível.</p>
+</div>
+<div class="card">
+<h3>Gruta das Encantadas</h3>
+<p>É o patrimônio natural mais importante da ilha. Caverna formada pelo mar, com uma lenda de sereias que moram lá dentro. Acesso por passarela de madeira.</p>
+</div>
+<div class="card">
+<h3>Fortaleza de Nossa Senhora dos Prazeres</h3>
+<p>Construída em 1769, é a única fortaleza do século XVIII do Paraná. Tem paredes de 1,5m e canhões antigos. Fica no Morro da Baleia.</p>
+</div>
+</section>
+
+<section id="fotos">
+<h2>Fotos Reais da Ilha do Mel</h2>
+<div class="fotos">
+<div class="foto-card">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Farol_das_Conchas_-_Ilha_do_Mel.jpg/640px-Farol_das_Conchas_-_Ilha_do_Mel.jpg" alt="Farol das Conchas">
+<div class="legenda">Farol das Conchas</div>
+</div>
+<div class="foto-card">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Gruta_das_Encantadas_-_Ilha_do_Mel.jpg/640px-Gruta_das_Encantadas_-_Ilha_do_Mel.jpg" alt="Gruta das Encantadas">
+<div class="legenda">Gruta das Encantadas</div>
+</div>
+<div class="foto-card">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Fortaleza_de_Nossa_Senhora_dos_Prazeres.jpg/640px-Fortaleza_de_Nossa_Senhora_dos_Prazeres.jpg" alt="Fortaleza">
+<div class="legenda">Fortaleza</div>
+</div>
+</div>
+<button class="curtir" onclick="curtir()">Curtir ❤️ <span id="contador">0</span></button>
+</section>
+</main>
+
+<footer>
+<p>Ilha do Mel - Paranaguá - PR</p>
+<p><strong>Criado por: Kauany</strong></p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+button{
     bckgroun-color: #25031d
     color: white;
     border: none;
