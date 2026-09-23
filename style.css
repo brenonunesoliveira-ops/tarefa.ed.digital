@@ -1,5 +1,5 @@
     button{
-    bckgroun-color: #200219
+    bckgroun-color: #25031d
     color: white;
     border: none;
     padding:10px 15px;
@@ -9,7 +9,7 @@
 }
 
 button:hover {
-     background-color: #702f61;
+     background-color: #884879;
 }
 
 .curtir {
