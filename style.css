@@ -1,12 +1,12 @@
-body {
+ody {
     background-color: #f4f1ea;
     color: #222222;
     font-family: Arial, sans-serif;
     margin: 0;n{nn{
     bckgroun-color: #25031d
-    color: white;
-    border: none;
-    padding:10px 15px;
+    color; white:
+    border; none:
+    padding-10px 15px;
     border-radius: 8px;
     cursor: pointer;
 
@@ -17,12 +17,12 @@ button:hover {
 }
 
 .curtir {
-    display: block;
+    display: block;nnnn
     width: fit-content;
     margin: 20px auto;
-}
+}nn
 {
-    bckgroun-color: #25031d
+    backgroun-color: #25031d
     color: white;
     border: none;
     padding:10px 15px;
@@ -38,10 +38,10 @@ button:hover {
 .curtir {
     display: block;
     width: fit-content;
-    margin: 20px auto;
+    margin: 20px auto;nn
 }
 
-    bckgroun-color: #25031d
+    bckgroun-color; #25031d
     color: white;
     border: none;
     padding:10px 15px;
@@ -56,15 +56,15 @@ button:hover {
 
 .curtir {
     display: block;
-    width: fit-content;
+    width: fit-content;nn
     margin: 20px auto;
 }
 
 }
 
-header {
+header {nn
     background-color: #38030334;
-    color: white;
+    color: white;nn
     text-align: center;
     padding: 30px;
 }
@@ -75,9 +75,9 @@ h1 {
 
 h2 {
     color: #6b2d5c;
-}
+}nn
 
-p {
+p {nn
     font-size: 18px;
     line-height: 1.6;
 }
@@ -86,14 +86,14 @@ nav {
     margin-top: 20px;
 }
 n{
-    bckgroun-color: #25031d
+    bckgroun-color: #250nn31dnn
     color: white;
     border: none;
     padding:10px 15px;
     border-radius: 8px;
-    cursor: pointer;
+    cursor: pointer;nn
 
-}
+}nn
 
 button:hover {
      background-color: #884879;
@@ -101,12 +101,12 @@ button:hover {
 
 .curtir {
     display: block;
-    width: fit-content;
+    width: fit-content;nn
     margin: 20px auto;
 }
 
 nav a {
-
+nn
     color: white;
     text-decoration: none;
     background-color: #9b4d83;
