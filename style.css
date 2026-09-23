@@ -2,11 +2,68 @@ body {
     background-color: #f4f1ea;
     color: #222222;
     font-family: Arial, sans-serif;
-    margin: 0;
+    margin: 0;n{nn{
+    bckgroun-color: #25031d
+    color: white;
+    border: none;
+    padding:10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+nnnn
+button:hover {
+     background-color: #884879;
+}
+
+.curtir {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+}
+{
+    bckgroun-color: #25031d
+    color: white;
+    border: none;
+    padding:10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+button:hover {
+     background-color: #884879;
+}
+
+.curtir {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+}
+
+    bckgroun-color: #25031d
+    color: white;
+    border: none;
+    padding:10px 15px;
+    border-radius: 8px;
+    cursor: pointer;nn
+
+}
+
+button:hover {
+     background-color: #082dd1;
+}
+
+.curtir {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+}
+
 }
 
 header {
-    background-color: #4EEDF2;
+    background-color: #38030334;
     color: white;
     text-align: center;
     padding: 30px;
@@ -28,6 +85,25 @@ p {
 nav {
     margin-top: 20px;
 }
+n{
+    bckgroun-color: #25031d
+    color: white;
+    border: none;
+    padding:10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+button:hover {
+     background-color: #884879;
+}
+
+.curtir {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+}
 
 nav a {
 
@@ -35,13 +111,13 @@ nav a {
     text-decoration: none;
     background-color: #9b4d83;
     padding: 10px 15px;
-    border-radius: 8px;
+    border-radius: 8px;nn
     margin: 5px;
     display: inline-block
 }
 
 nav a:hover {
-    background-color: #c77dff;
+    background-color: #c77dff;nn
 }
 
 
@@ -62,7 +138,7 @@ section {
 img {
 
     width: 100%;
-    max-width: 600px;
+    max-width: 600px;nn
     margin: auto;
     border-radius: 12px;
 
@@ -112,7 +188,7 @@ button {
 
 button:hover {
     background-color: #9b4d83;
-
+nn
 }
 
 .curtir {
@@ -121,3 +197,4 @@ button:hover {
     margin: 20px auto;
 
 }
+
