@@ -1,4 +1,4 @@
-:root{brenonunbrenonun
+:root{
     --cor-fundo:#080cff;
     --cor-texto:#222222;
     --cor-principal:#156919;
@@ -10,7 +10,7 @@
     --cor-clara: #white;
     --cor-rodape: #c72f2f;
 }
-
+brenonun
 body {
     background-color: #f4f1ea;
     color: #222222;
@@ -35,8 +35,8 @@ button:hover {
     margin: 20px auto;
 }nn
 {
-    backgroun-color: #25031d
-    color: white;
+    background-color: #25031d
+    color: #white;
     border: none;
     padding:10px 15px;
     border-radius: 8px;
