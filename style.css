@@ -1,4 +1,17 @@
-ody {
+:root{
+    --cor-fundo:
+    --cor-texto:
+    --cor-principal:
+    --cor-segundaria:
+    --cor-hover:
+    --cor-superficie:
+    --cor-card:
+    --cor-legenda: 
+    --cor-clara: 
+    --cor-rodape: 
+}
+
+body {
     background-color: #f4f1ea;
     color: #222222;
     font-family: Arial, sans-serif;
