@@ -1,8 +1,8 @@
 :root{
-    --cor-fundo:#b3bbb6;
+    --cor-fundo:#adadad;
     --cor-texto:#222222;
-    --cor-principal:#156919;
-    --cor-segundaria:#9b4d83;
+    --cor-principal:#060706;
+    --cor-segundaria:#ecfd00;
     --cor-hover:#c77dff;
     --cor-superficie:#white;
     --cor-card:#962eb3;
@@ -105,7 +105,7 @@ background-color: var(--cor-principal);
       padding: 10px 15px;
       border-radius: 8px;
       cursor: pointer;    
-}                                                
+}
 
 button:hover {
     background-color: var(--)
