@@ -2,11 +2,11 @@
     --cor-fundo:#adadad;
     --cor-texto:#222222;
     --cor-principal:#060706;
-    --cor-segundaria:#ecfd00;
+    --cor-segundaria:#ecf1a7;
     --cor-hover:#c77dff;
     --cor-superficie:#white;
     --cor-card:#962eb3;
-    --cor-legenda: #555555;
+    --cor-legenda: #fcefef;
     --cor-clara: #white;
     --cor-rodape: #c72f2f;
 }
@@ -115,4 +115,15 @@ button:hover {
     display:block;
     width:fit-content;
     margin: 20px auto;
+}
+.galeria {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cards-curiosidades{
+    dislay: flax;
+    gap: 20px;
+    flax-wrap: wrap;
 }
