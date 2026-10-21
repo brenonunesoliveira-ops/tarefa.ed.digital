@@ -1,7 +1,7 @@
 :root{
     --cor-fundo:#d8daf8;
     --cor-texto:#979797;
-    --cor-principal:#060706;
+    --cor-principal:#e1f3e1;
     --cor-segundaria:#252701;
     --cor-hover:#c77dff;
     --cor-superficie:#white;
@@ -19,7 +19,7 @@ font-family: Arial, sans-serif;
 }
 
 header{
-    backgoun-color: var(--cor-principal);
+    background-color: var(--cor-principal);
     color: var(--cor-clara);
     text-align: center;
     padding: 30px;
@@ -58,15 +58,6 @@ nav- a:hover {
 }
 
 main {
-    width: 80%;
-    margin: alto;
-}
-
-section {
-    background-color: var(--cor-superficie);
-    margin: 20px 0;
-    padding: 20px;
-    border-radius: 20px;
 
 }
 
