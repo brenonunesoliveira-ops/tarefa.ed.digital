@@ -6,7 +6,7 @@
     --cor-hover:#68c93b;
     --cor-superficie:#white;
     --cor-card:#962eb3;
-    --cor-legenda: #e0cbcb;
+    --cor-legenda: #ff1010;
     --cor-clara: #white;
     --cor-rodape: #c72f2f;
 }
@@ -54,7 +54,7 @@ nav a {
 }
 
 nav- a:hover {
-    background-color:#6b2d5c
+    background-color:#ff00bf
 }
 
 main {
