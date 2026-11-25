@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -23,3 +24,4 @@
         <section id="sobre">
             <h2>Sobre o Acqua Park</h2>
             <p>O Acqua Park Araucária é um parque aquático localizado na cidade de Araucária, no estado do Paraná. É um lugar voltado para o lazer, a diversão e o entretenimento de pessoas de diferentes idades. O parque conta com diversas atrações aquáticas, como piscinas, toboáguas, piscina de ondas e outras opções para aproveitar os dias de calor. Cada atração oferece uma experiência diferente, desde momentos mais tranquilos para relaxar até atividades mais animadas para
+>>>>>>> f52d9865ee3e5d0a82e969a263360cb8514c3f5f
