@@ -7,15 +7,11 @@ botoesCurtir.forEach(function(botaoCurtir){
       contador.textContent++;
       curtiu = true;
     } else {
-      contador.texContent--;
+      contador.textContent--;
       curtiu = false;
     }
-   
-    }
+  });
 });
-
-
-
 
 const btnTema = document.querySelector(".btn-tema");
 btnTema.addEventListener("click", mudarTema);
